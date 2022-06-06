@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class main {
 
     public static void main(String[] args) {
-        int n, total=0;
+        int n, total = 0;
         
         Scanner input = new Scanner(System.in);
         
@@ -15,6 +15,6 @@ public class main {
                total += n;
             }
         } while (n%2 == 0);
-        System.out.println("Sayilarin Toplami :"+total);
+        System.out.println("Sayilarin Toplami : "+ total);
     }
 }
